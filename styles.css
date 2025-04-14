@@ -80,4 +80,26 @@ footer {
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
+    /* Стилови за иконите */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 100px;  /* Ширина на иконата */
+    height: 100px;  /* Висина на иконата */
+    transition: transform 0.3s ease;
+}
+
+.icon:hover img {
+    transform: scale(1.1);  /* Промена на големината на иконата кога ќе се прелисти */
+}
+
+.icon p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
 }
