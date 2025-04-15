@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакт - FireSafe DOO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.png" alt="FireSafe DOO Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Почетна</a></li>
+                <li><a href="products.html">Продукти</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="about.html">За Нас</a></li>
+                <li><a href="contact.html" class="active">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h1>Контактирајте не</h1>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Контакт информации</h2>
+                <p><strong>Телефон:</strong> +389 70 123 456</p>
+                <p><strong>Email:</strong> contact@firesafedoo.com</p>
+                <p><strong>Локација:</strong> Скопје, Македонија</p>
+                <img src="img/contact-map.jpg" alt="Локација" class="contact-map">
+            </div>
+            <div class="contact-form">
+                <h2>Испратете порака</h2>
+                <form action="mailto:contact@firesafedoo.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Вашето име" required>
+                    <input type="email" name="email" placeholder="Вашиот email" required>
+                    <textarea name="message" placeholder="Вашата порака" rows="5" required></textarea>
+                    <button type="submit">Испрати</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Контакт: contact@firesafedoo.com | Тел: +389 70 123 456</p>
+    </footer>
+
+</body>
+</html>
